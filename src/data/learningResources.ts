@@ -7,11 +7,109 @@ export interface Resource {
   content: string;
   featured: boolean;
   video?: string;
+  author?: string;
 }
 
 export const allResources: Resource[] = [
   {
     id: 1,
+    title: "IEP & 504 Plans: A Parent and Teacher Guide (with Fran Boyle)",
+    category: "Videos",
+    time: "19 min watch",
+    image: "https://img.youtube.com/vi/tLPhh-N0Ux4/0.jpg",
+    content: `
+      <h2>IEP & 504 Plans: A Parent and Teacher Guide</h2>
+      <p><strong>Credit:</strong> Sushma Rathi</p>
+      <p>Join us for an inspiring conversation with Fran Boyle, a special needs educator with over 14 years of experience, and co-founder of IEP Report — a platform designed to make data tracking seamless for educators worldwide.</p>
+      <ul>
+        <li>00:08 Background Information + Introduction</li>
+        <li>02:02 What exactly is the purpose of an IEP, and how does a child qualify for one?</li>
+        <li>03:35 What is the purpose of a 504 plan, and how does a child qualify for one?</li>
+        <li>04:44 For parents who are about to attend their first IEP meeting, how can they best prepare?</li>
+        <li>06:06 Sometimes parents don't agree with the school's evaluation or the proposed IEP -- what should they do in that situation?</li>
+        <li>07:30 How often should an IEP be looked at or updated?</li>
+        <li>09:19 IDEA offers some important protections - can you talk more about what those are?</li>
+        <li>11:24 Tips for Teachers: Balancing the needs of individual students with the demands of the classroom</li>
+        <li>13:36 More Information on IEP Report</li>
+        <li>17:05 If progress monitoring shows that a child isn't meeting their IEP goals, what steps should be taken to adjust things?</li>
+        <li>18:34 Final Remarks + Advice</li>
+      </ul>
+      <div class="video-container my-6 rounded-lg overflow-hidden">
+        <iframe 
+          width="100%" 
+          height="400" 
+          src="https://www.youtube.com/embed/tLPhh-N0Ux4" 
+          title="IEP & 504 Plans: A Parent and Teacher Guide"
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h3>Video Summary</h3>
+      <ul>
+        <li><strong>Purpose of an IEP (Individualized Education Program):</strong> Legal document outlining individualized education goals, services, and supports for students identified with a disability. Governed by IDEA. Eligibility: Must have a disability affecting educational achievement requiring specialized instruction.</li>
+        <li><strong>Goals of IEP:</strong> Ensure specialized instruction, measurable goals, related services (speech/occupational therapy, counseling, summer programming if needed).</li>
+        <li><strong>Purpose of a Section 504 Plan:</strong> Provides accommodations for students who do not meet IEP criteria. Governed by Section 504 of the Rehabilitation Act. Eligibility: Any physical or mental impairment that substantially limits major life activities.</li>
+        <li><strong>Preparing for an IEP Meeting:</strong> Ensure evaluation, assess strengths/weaknesses, gather documentation, compile concerns and expectations.</li>
+        <li><strong>Disagreement with School Evaluations/IEP:</strong> Rights under procedural safeguards. Minor issues resolved with IEP team; severe disagreements may require legal advice.</li>
+        <li><strong>IEP Review Frequency:</strong> Must be reviewed/updated at least annually. Assess progress, effectiveness, and necessary modifications.</li>
+        <li><strong>IDEA Rights and Protections:</strong> FAPE, parent participation, due process, confidentiality.</li>
+        <li><strong>Balancing Classroom Needs:</strong> Inclusion model, co-teaching, clear routines, small group/one-on-one support, differentiated instruction.</li>
+        <li><strong>IEP Progress Monitoring Platform:</strong> Website for organizing students, tracking goals, generating reports, saving time for teachers.</li>
+        <li><strong>Steps if IEP Goals Are Not Met:</strong> Tiered support systems, flexible meetings, regular review and adjustment.</li>
+        <li><strong>Final Advice:</strong> Stay organized, seek community support, ask questions during meetings.</li>
+      </ul>
+    `,
+    featured: true,
+    video: "https://www.youtube.com/embed/tLPhh-N0Ux4",
+    author: "Sushma Rathi"
+  },
+  {
+    id: 2,
+    title: "Enhancing Communication for Students Who Use AAC (with Allie Cole)",
+    category: "Videos",
+    time: "13 min watch",
+    image: "https://img.youtube.com/vi/iMcQJeosg4Q/0.jpg",
+    content: `
+      <h2>Enhancing Communication for Students Who Use AAC</h2>
+      <p><strong>Credit:</strong> Sushma Rathi</p>
+      <p>Join Allie Cole, a third-year PhD student at Vanderbilt University, for an in-depth video on communication, AAC, and caregiver support. This video covers essential insights into communication rights and tools for supporting individuals with complex communication needs.</p>
+      <ul>
+        <li>00:05:17 – Background Information & Introduction</li>
+        <li>00:37:26 – Communication as a Right</li>
+        <li>01:25:00 – What is AAC?</li>
+        <li>02:18:17 – Behavior as Communication</li>
+        <li>03:40:21 – Debunking AAC Myths</li>
+        <li>05:51:25 – Strategies for Caregivers</li>
+        <li>12:45:29 – Key Takeaways & Final Advice</li>
+      </ul>
+      <div class="video-container my-6 rounded-lg overflow-hidden">
+        <iframe 
+          width="100%" 
+          height="400" 
+          src="https://www.youtube.com/embed/iMcQJeosg4Q" 
+          title="Enhancing Communication for Students Who Use AAC"
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h3>Video Summary</h3>
+      <ul>
+        <li><strong>Communication as a Right:</strong> The Communication Bill of Rights (NJC, 1992) emphasizes communication as a basic human right, guiding assessment, intervention, and advocacy for individuals with severe disabilities.</li>
+        <li><strong>Behavior as Communication:</strong> Behaviors may be attempts to communicate needs, wants, or emotions. Teaching AAC use can reduce frustration and enhance communication.</li>
+        <li><strong>What Is AAC?</strong> Augmentative and alternative communication includes aided (devices, boards) and unaided (gestures, sign language) methods. AAC does not inhibit speech development; it supports language growth.</li>
+        <li><strong>Strategies for Caregivers:</strong> Model AAC use, make it fun, honor all communication, presume competence, and embed AAC in real-world interactions.</li>
+        <li><strong>Employment and AAC:</strong> The ICF framework highlights the importance of contextual factors and individualized AAC solutions for employment success.</li>
+        <li><strong>Final Thoughts:</strong> Fostering autonomy, honoring all communication, and supporting AAC users with understanding and inclusive practices helps them achieve their full potential.</li>
+      </ul>
+    `,
+    featured: true,
+    video: "https://www.youtube.com/embed/iMcQJeosg4Q",
+    author: "Sushma Rathi"
+  },
+  {
+    id: 3,
     title: "Understanding Different Learning Styles",
     category: "Educational Resources",
     time: "10 min read",
@@ -51,7 +149,7 @@ export const allResources: Resource[] = [
     featured: true
   },
   {
-    id: 2,
+    id: 4,
     title: "Creating an Inclusive Classroom Environment",
     category: "Teacher Guides",
     time: "15 min read",
@@ -83,7 +181,7 @@ export const allResources: Resource[] = [
     featured: false
   },
   {
-    id: 3,
+    id: 5,
     title: "Effective Communication Strategies for Special Needs",
     category: "Educational Resources",
     time: "12 min read",
@@ -109,7 +207,7 @@ export const allResources: Resource[] = [
     featured: false
   },
   {
-    id: 4,
+    id: 6,
     title: "Assistive Technology Tools and Resources",
     category: "Technology",
     time: "20 min read",
@@ -135,7 +233,7 @@ export const allResources: Resource[] = [
     featured: true
   },
   {
-    id: 5,
+    id: 7,
     title: "Building Self-Advocacy Skills in Children",
     category: "Student Development",
     time: "15 min read",
@@ -161,7 +259,7 @@ export const allResources: Resource[] = [
     featured: false
   },
   {
-    id: 6,
+    id: 8,
     title: "Understanding ADHD in the Classroom",
     category: "Educational Resources",
     time: "18 min read",
@@ -188,7 +286,7 @@ export const allResources: Resource[] = [
     video: "https://www.youtube.com/embed/ouZrZa5pLXk"
   },
   {
-    id: 7,
+    id: 9,
     title: "Social Skills Development for Children with Autism",
     category: "Parent Resources",
     time: "25 min read",
@@ -215,7 +313,7 @@ export const allResources: Resource[] = [
     video: "https://www.youtube.com/embed/9XQ9ziUk8bU"
   },
   {
-    id: 8,
+    id: 10,
     title: "Dyslexia: Signs, Symptoms and Support Strategies",
     category: "Educational Resources",
     time: "22 min read",

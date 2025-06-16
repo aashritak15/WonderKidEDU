@@ -1,4 +1,3 @@
-
 import TypewriterEffect from "./TypewriterEffect";
 import { ArrowDown } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -19,11 +18,11 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-animated relative">
-      <div className="absolute inset-0 bg-gradient-to-b from-blue-50/70 to-purple-50/70"></div>
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-400 via-pink-400 to-yellow-300 relative">
+      <div className="absolute inset-0 bg-gradient-to-b from-blue-200/70 via-pink-100/60 to-yellow-100/70"></div>
       <div className="wk-container text-center z-10 pt-16">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fadeIn">
+          <h1 className="text-6xl md:text-7xl font-bold mb-4 animate-fadeIn font-['Poppins',_sans-serif] drop-shadow-lg" style={{textShadow: '0 2px 16px rgba(0,0,0,0.08)'}}>
             Welcome to <span className="text-gradient">Wonder Kid EDU</span>
           </h1>
           

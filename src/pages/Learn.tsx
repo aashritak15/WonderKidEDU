@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -46,16 +45,16 @@ const Learn = () => {
         <section className="bg-gradient-to-b from-blue-50 to-purple-50 py-20">
           <div className="wk-container">
             <div className="text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gradient">Learning Resources</h1>
-              <p className="text-gray-700 max-w-2xl mx-auto mb-8">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gradient font-['Poppins',_sans-serif] drop-shadow-lg" style={{textShadow: '0 2px 16px rgba(0,0,0,0.08)'}}>
+                Learning Resources
+              </h1>
+              <p className="text-gray-700 max-w-2xl mx-auto mb-8 text-base md:text-lg">
                 Explore our comprehensive library of resources designed to support both educators and families in creating effective learning environments for children with special needs.
               </p>
-              
               <CategoryFilter 
                 activeCategory={activeCategory}
                 setActiveCategory={setActiveCategory}
               />
-              
               <SearchBar 
                 searchQuery={searchQuery}
                 setSearchQuery={setSearchQuery}
@@ -74,7 +73,7 @@ const Learn = () => {
         ) : (
           <section className="py-16">
             <div className="wk-container">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {displayedResources.slice(0, visibleCount).map((resource) => (
                   <ResourceCard key={resource.id} resource={resource} />
                 ))}
