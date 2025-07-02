@@ -18,13 +18,39 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-400 via-pink-400 to-yellow-300 relative">
-      <div className="absolute inset-0 bg-gradient-to-b from-blue-200/70 via-pink-100/60 to-yellow-100/70"></div>
-      <div className="wk-container text-center z-10 pt-16">
+    <section
+  id="home"
+  className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white"
+>
+  
+<div className="absolute inset-0 pointer-events-none z-0">
+ 
+  <div
+    className="absolute top-[-200px] left-[-200px] w-[500px] h-[500px] bg-purple-300 rounded-full filter blur-[100px]"
+    style={{ opacity: 0.7 }}
+  ></div>
+
+
+  <div
+    className="absolute bottom-[-150px] right-[-180px] w-[500px] h-[500px] bg-blue-200 rounded-full filter blur-[100px]"
+    style={{ opacity: 0.7 }}
+  ></div>
+</div>
+
+
+
+      <div className="wk-container text-center z-10 pt-16 bg-transparent">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-6xl md:text-7xl font-bold mb-4 animate-fadeIn font-['Poppins',_sans-serif] drop-shadow-lg" style={{textShadow: '0 2px 16px rgba(0,0,0,0.08)'}}>
-            Welcome to <span className="text-gradient">Wonder Kid EDU</span>
+            <h1
+            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold mb-6 leading-tight drop-shadow-lg animate-fadeIn"
+            style={{
+              fontFamily: "'Fontin Sans', sans-serif",
+              textShadow: "0 2px 16px rgba(0,0,0,0.08)",
+            }}
+          >
+            Welcome to <span className="bg-gradient-to-r from-sky-500 via-blue-500 to-purple-400 bg-clip-text text-transparent">Wonder Kid EDU</span>
           </h1>
+
           
           <div className="text-xl md:text-2xl text-gray-700 mb-8 h-8">
             <TypewriterEffect texts={typewriterTexts} />

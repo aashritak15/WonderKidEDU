@@ -19,7 +19,7 @@ export const allResources: Resource[] = [
     image: "https://img.youtube.com/vi/tLPhh-N0Ux4/0.jpg",
     content: `
       <h2>IEP & 504 Plans: A Parent and Teacher Guide</h2>
-      <p><strong>Credit:</strong> Sushma Rathi</p>
+      <p><strong>Credit:</strong> Fran Boyle</p>
       <p>Join us for an inspiring conversation with Fran Boyle, a special needs educator with over 14 years of experience, and co-founder of IEP Report — a platform designed to make data tracking seamless for educators worldwide.</p>
       <ul>
         <li>00:08 Background Information + Introduction</li>
@@ -72,7 +72,7 @@ export const allResources: Resource[] = [
     image: "https://img.youtube.com/vi/iMcQJeosg4Q/0.jpg",
     content: `
       <h2>Enhancing Communication for Students Who Use AAC</h2>
-      <p><strong>Credit:</strong> Sushma Rathi</p>
+      <p><strong>Credit:</strong> Allie Cole</p>
       <p>Join Allie Cole, a third-year PhD student at Vanderbilt University, for an in-depth video on communication, AAC, and caregiver support. This video covers essential insights into communication rights and tools for supporting individuals with complex communication needs.</p>
       <ul>
         <li>00:05:17 – Background Information & Introduction</li>
@@ -110,7 +110,7 @@ export const allResources: Resource[] = [
   },
   {
     id: 3,
-    title: "Understanding Different Learning Styles",
+    title: "Assistive Technology & AAC",
     category: "Educational Resources",
     time: "10 min read",
     image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
