@@ -62,7 +62,7 @@ export const allResources: Resource[] = [
     `,
     featured: true,
     video: "https://www.youtube.com/embed/tLPhh-N0Ux4",
-    author: "Sushma Rathi"
+    author: "Aashrita Koyyalamudi & Fran Boyle"
   },
   {
     id: 2,
@@ -106,7 +106,7 @@ export const allResources: Resource[] = [
     `,
     featured: true,
     video: "https://www.youtube.com/embed/iMcQJeosg4Q",
-    author: "Sushma Rathi"
+    author: "Aashrita Koyyalamudi & Allie Cole"
   },
   {
     id: 3,
