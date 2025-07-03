@@ -45,7 +45,7 @@ const Learn = () => {
         <section className="bg-gradient-to-b from-blue-50 to-purple-50 py-20">
           <div className="wk-container">
             <div className="text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gradient font-['Poppins',_sans-serif] drop-shadow-lg" style={{textShadow: '0 2px 16px rgba(0,0,0,0.08)'}}>
+            <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-gradient font-['Archivo Black',_sans-serif] drop-shadow-lg" style={{textShadow: '0 2px 16px rgba(0,0,0,0.08)'}}>
                 Learning Resources
               </h1>
               <p className="text-gray-700 max-w-2xl mx-auto mb-8 text-base md:text-lg">

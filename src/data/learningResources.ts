@@ -115,39 +115,38 @@ export const allResources: Resource[] = [
     time: "10 min read",
     image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     content: `
-        <h2>Understanding Different Learning Styles</h2>
-        <p>Every child learns differently, and understanding these diverse learning styles is crucial for effective education. In this article, we'll explore the main types of learning styles and how to support each one.</p>
-        
-        <h3>Visual Learners</h3>
-        <p>Visual learners process information best through images, diagrams, and written content. They benefit from:</p>
-        <ul>
-          <li>Charts and graphs</li>
-          <li>Color-coding</li>
-          <li>Written instructions</li>
-        </ul>
+  <h2>Understanding Different Communication Styles</h2>
+  <p><strong>Credit:</strong> Sushma Rathi</p>
+  <p>Augmentative and alternative communication (AAC) includes all forms of communication (other than speech) that are used to express thoughts, needs, wants, and ideas. When we communicate we often use methods to either augment (add to) our message or as an alternative to speaking. Facial expressions, gestures, symbols, pictures, and writing are everyday examples of AAC forms.</p>
+  
+  <h3>AAC Devices and Interventions</h3>
+  <p>The following slideshow was put together by special education teachers from SRVUSD</p>
+  <div class="pdf-container my-6 rounded-lg overflow-hidden shadow-lg">
+    <iframe
+      src="/uploads/aac.pdf"  
+      width="100%"
+      height="600"
+      title="PDF Preview: Resource Guide"
+      class="w-full h-[600px] border-none"
+    ></iframe>
+  </div>
 
-        <div class="video-container my-6 rounded-lg overflow-hidden">
-          <iframe 
-            width="100%" 
-            height="400" 
-            src="https://www.youtube.com/embed/ouZrZa5pLXk" 
-            title="Understanding Visual Learning"
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen
-          ></iframe>
-        </div>
+  <h3>Low, Mid, High Tech-Assistive Technology</h3>
+  <p>The following slideshow was put together by special education teachers from SRVUSD</p>
+  <div class="pdf-container my-6 rounded-lg overflow-hidden shadow-lg">
+    <iframe
+      src="/uploads/aac2.pdf"  
+      width="100%"
+      height="600"
+      title="PDF Preview: Resource Guide"
+      class="w-full h-[600px] border-none"
+    ></iframe>
+  </div>
+`,
 
-        <h3>Auditory Learners</h3>
-        <p>Auditory learners thrive through listening and verbal communication. They excel with:</p>
-        <ul>
-          <li>Verbal instructions</li>
-          <li>Group discussions</li>
-          <li>Audio materials</li>
-        </ul>
-      `,
     featured: true
   },
+
   {
     id: 4,
     title: "Creating an Inclusive Classroom Environment",

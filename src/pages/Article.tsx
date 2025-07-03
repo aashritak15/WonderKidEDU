@@ -21,7 +21,7 @@ const Article = () => {
     <>
       <Navbar />
       <main className="pt-24">
-        <article className="wk-container py-16 max-w-4xl mx-auto">
+        <article className="wk-container  py-16 max-w-4xl mx-auto">
           <img 
             src={article.image} 
             alt={article.title}
