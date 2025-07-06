@@ -337,6 +337,18 @@ export const allResources: Resource[] = [
       </ul>`,
     featured: true
   },
+
+  {
+    id: 11,
+    title: "Assessing Behavioral Needs",
+    category: "Assessments",
+    time: "10 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p>Besides a lovely smile and simple talking, behavior also does the job of communicating. However, a challenging behavior is often communicating needs that are not met. This leads to the conclusion that every behavior is backed by a functional element</p>
+    <p>Functions and Reinforcment-
+Before getting more technical about the functions of behaviour we’re going to outline four common behavioural functions below.</p>`,
+    featured: true
+  },
 ];
 
 export const categories = [
