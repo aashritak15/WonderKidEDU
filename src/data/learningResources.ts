@@ -337,6 +337,16 @@ export const allResources: Resource[] = [
       </ul>`,
     featured: true
   },
+
+  {
+    id: 11,
+    title: "Assistive Technology & AAC",
+    category: "What are Evidence Based Practices",
+    time: "20 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p>Augmentative and alternative communication (AAC) includes all forms of communication (other than speech) that are used to express thoughts, needs, wants, and ideas. When we communicate we often use methods to either augment (add to) our message or as an alternative to speaking. Facial expressions, gestures, symbols, pictures, and writing are everyday examples of AAC forms.</p>`,
+    featured: true
+  },
 ];
 
 export const categories = [
