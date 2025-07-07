@@ -417,15 +417,92 @@ export const allResources: Resource[] = [
     <p> This evidence based practice overview on Reinforcement (R+) includes the following components:</p>`,
     featured: true
   },
-  {
+{
     id: 18,
-    title: "Prompting",
+    title: "Visual Support",
     category: "What Are Evidence Based Practices?",
     time: "10 min read",
     image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p> Prompts are generally given by an adult before or as a toddler attempts to use a skill. With prompting procedures, parents, family members, early interventionists, child care providers, or other team member can use different types of prompts systematically to help toddlers with Autism Spectrum Disorder (ASD) acquire target skills.</p>
-    <p>​The Prompting learning module describes how to develop, implement, and monitor the use of two prompting procedures: least-to-most and graduated guidance. </p>
-    <p>In the instructional session, the task direction or cue, (signal to use target skill) and controlling prompt (prompt that ensures learner will do the target skill successfully) are delivered simultaneously. In the probe sessions, the cue or task direction is delivered without the prompts to monitor progress.</p>`,
+    content: `<p>Visual supports can be photographs, drawings, objects, written words, or lists. Research has shown that visual supports work well as a way to communicate.Visual supports are used with children who have autism spectrum disorders (ASD) for two main purposes.</p>
+    <p>Each of the following points is important to address so that you can be sure the selected EBP is likely to address the learning needs of your student.</p>
+    <p>​Visual supports are used with children who have autism spectrum disorders (ASD) for two main purposes. They help parents communicate better with their child, and they help their child communicate better with others.</p>`,
+    featured: true
+  },
+  {
+    id: 19,
+    title: "Structured Play Group",
+    category: "What Are Evidence Based Practices?",
+    time: "15 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p>​Structured play groups (SPG) involve small-group activities characterized by their occurrences in a defined area and with a defined activity; the specific selection of typically developing peers to be in the group; and a clear delineation of theme and roles by adult leading, prompting, or scaffolding as needed to support students’ performance related to the goals of the activity.</p>
+    <p>​Below are CEC Standards that apply specifically to Structured Play Groups (SPG) module.</p>
+    <p>Structured play groups (SPG) are interventions using small groups to teach a broad range
+of outcomes. SPG activities are characterized by their occurrences in a defined area and with a defined activity; specific selection of typically developing peers to be in the group; and clear delineation of theme and roles by adult leading, prompting, or scaffolding as needed to support the learners’ performance related to the goals of the activity.</p>`,
+    featured: true
+  },
+  {
+    id: 20,
+    title: "Social Narratives",
+    category: "What Are Evidence Based Practices?",
+    time: "15 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p>Social narratives is an evidence-based practice that is easy to design and implement and which have been shown to be effective for teaching students with ASD social skills and stories to provide social cues and correct your students' responses to situations in a nonthreatening manner.</p>
+    <p>Research has shown that cartoon techniques, such as thought and speech bubbles, enable the individual with autism to get a sense of social interactions and understand the hidden rules that govern behaviors (Kerr & Durkin, 2004).  One cartooning strategy is known as Comic Strip Conversations developed by Carol Gray (1994). By illustrating conversation through simple drawings, the strategy helps the student to identify “what other people say and do” and emphasizes “what other people may be thinking.” Drawing a short conversation with symbols to represent persons and speech while talking, assists the student in learning how general conversations occur. </p>
+    <p>This evidence-based practice overview on Social Narratives (SN) includes the following components...</p>`,
+    featured: true
+  },
+  {
+    id: 21,
+    title: "Self Management",
+    category: "What Are Evidence Based Practices?",
+    time: "5 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p>​Self-management is a strategy to increase independence and teach new skills and behaviors through monitoring, recording, and rewarding one's own behavior.</p>
+    <p>Self-management helps children and adults with self-regulation, and through self-management, people learn rules and norms for acting appropriately in different situations. Included in self-management strategies are self-monitoring and self-reflection. </p>
+    <p>​Below are CEC Standards that apply specifically to Self-management (SM) module.</p>`,
+    featured: true
+  },
+  {
+    id: 22,
+    title: "Scripting",
+    category: "What Are Evidence Based Practices?",
+    time: "10 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p>A Brief About Scripting:
+    Scripting (SC) involves presenting learners with a verbal and/or written description about a specific skill or situation that serves as a model for the learner. The main rationale of SC is to help learners anticipate what may occur during a given activity and improve their ability to appropriately participate in the activity. SC are practiced repeatedly before the skill is used in the actual situation. When learners are able to use the scripts successfully in actual situations, the script should be systematically faded. SC is often used in conjunction with modeling, prompting, and reinforcement.​</p>`,
+    featured: true
+  },
+  {
+    id: 23,
+    title: "Social Skills Training",
+    category: "What Are Evidence Based Practices?",
+    time: "10 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p> Social skills training is aimed at addressing the challenges that result, and often plays a central role in treatment plans.​</p>
+    <p>Every child on the autism spectrum is unique, with different strengths and needs at different ages. It is the family's challenge to cobble together an individualized treatment plan based on a wide variety of options, from speech and language therapy to applied behavior analysis, from medication to special diets. One intervention many families consider is social skills training. A lack of intuitive social ability is a hallmark of autism.​</p>
+    <p> Each of the following points is important to address so that you can be sure the selected EBP is likely to address the learning needs of your student. </p>`,
+    featured: true
+  },
+  {
+    id: 24,
+    title: "Video Modeling",
+    category: "What Are Evidence Based Practices?",
+    time: "10 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p> Video modeling is an evidence-based prompting strategy that can be used to increase positive behaviors and aid in skill acquisition in individuals with autism. It is a teaching method where an individual watches a video of someone completing an activity and imitates the activity themselves.</p>
+    <p> The identification of efficient teaching procedures to address imaginative play skills deficits commonly seen in children with autism is a challenge for those designing treatment programs. In the present study video modeling was used to teach play skills to a preschool child with autism. Videotaped play sequences included both verbal and motor responses.</p>
+    <p> ​Each of the following points is important to address so that you can be sure the selected EBP is likely to address the learning needs of your student.  </p>`,
+    featured: true
+  },
+  {
+    id: 25,
+    title: "Time Delay",
+    category: "What Are Evidence Based Practices?",
+    time: "10 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p>Video modeling is an evidence-based prompting strategy that can be used to increase positive behaviors and aid in skill acquisition in individuals with autism. It is a teaching method where an individual watches a video of someone completing an activity and imitates the activity themselves. </p>
+    <p> ​This practice is always used in conjunction with prompting procedures such as least-to-most prompting, simultaneous prompting, and graduated guidance. With this procedure, a brief delay is provided between the initial instruction and any additional instructions or prompts. The evidence-based research focuses on two types of time delay procedures: progressive and constant.</p>
+    <p>​Each of the following points is important to address so that you can be sure the selected EBP is likely to address the learning needs of your student. </p>`,
     featured: true
   },
 ];
