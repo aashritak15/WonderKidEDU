@@ -337,6 +337,97 @@ export const allResources: Resource[] = [
       </ul>`,
     featured: true
   },
+  {
+    id: 11,
+    title: "Picture Exchange Communication System (PECS)",
+    category: "What Are Evidence Based Practices?",
+    time: "10 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p>The Picture Exchange Communication System (PECS) was developed at the Delaware Autistic Program (DAP) and was designed to teach young children to communicate in a social context (Bondy & Frost, 1994; Frost & Bondy, 2002). Using PECS, learners are taught to give a picture of a desired item to a communicative partner in exchange for the item. There are six phases of PECS instruction, with each phase building on the last. The phases are: (1) Teaching the physically assisted exchange, (2) Expanding spontaneity, (3) Simultaneous discrimination of pictures, (4) Building sentence structure, (5) Responding to, “What do you want?” and (6) Commenting in response to a question. </p>
+    <p> Five studies were found to meet the evidence-based practice criteria and serve as the evidence base for PECS. Two of the studies were randomized, controlled group designs, and three were single subject studies demonstrating control through a variety of research designs including multiple baseline, alternating treatments, changing criterion, and withdrawal. ​ </p>
+    <p> This evidence-based practice overview on Picture Exchange Communication System (PECS) includes the following components: ​</p>
+    <p> What is the Picture Exchange Communication System or PECS? 
+    Description of the PECS program as defined by Lori Frost and Andrew Bondy
+    The Picture Exchange Communication System or PECS approach is a modified applied behavior analysis program designed for early nonverbal symbolic communication training. It is not a program designed to teach speech, although the latter is encouraged indirectly and some children begin to spontaneously use speech while enrolled in the PECS program. ​</p>`,
+    featured: true
+  },
+  {
+    id: 12,
+    title: "Naturalistic Intervention",
+    category: "What Are Evidence Based Practices?",
+    time: "10 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p>​Naturalistic intervention is a collection of practices including environmental arrangement, interaction techniques, and strategies based on applied behavior analysis principles. These. practices are designed to encourage specific target behaviors based on learners' interests by. ​</p>
+    <p>​Naturalistic intervention meets the evidence-base criteria with eight single-subject and two randomized group design studies, demonstrating its effectiveness for promoting communication and social skills for learners at the preschool, elementary school, and middle/high school levels.</p>
+    <p>​Naturalistic Intervention involves a sequence of strategies designed to identify the contexts for intervention, provide training to the early intervention team members including providers and parents, arrange the environment to elicit the target behavior, and then elicit the target behavior to engage the toddler with Austim Spectrum Disorder (ASD) in communication and social interactions. This learning module describes a process for engaging toddlers with ASD in social and communication interactions.</p>`,
+    featured: true
+  },
+  {
+    id: 13,
+    title: "Modeling",
+    category: "What Are Evidence Based Practices?",
+    time: "15 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p>Modeling is an instructional strategy in which the teacher demonstrates a new concept or approach to learning and students learn by observing. Haston (2007) Whenever a teacher demonstrates a concept for a student, that teacher is modeling.</p>
+    <p>A quick summary of salient features of the practice, including what it is, who it can be used with, what skills it has been used with, and settings for instruction.</p>
+    <p>​Functional communication training (FCT) emerged from the literature on functional behavioral assessment (FBA) as a systematic practice to replace inappropriate behavior or subtle communicative acts with more appropriate and effective communicative behaviors or skills. FCT is always implemented after an FBA has been conducted to identify the function of an interfering behavior. When using FCT, teachers/practitioners analyze the interfering behavior to determine what the learner is trying to communicate. For example, is the learner biting peers when she wants a toy that another child has? Or is the learner yelling out in class so that he will be sent out of the room? After teachers/practitioners have identified the function of the interfering behavior, they then implement FCT to identify and teach a replacement behavior that is easy for the learner to use and serves the same purpose as the interfering behavior, but in a more appropriate way. </p>`,
+    featured: true
+  },
+  {
+    id: 14,
+    title: "Functional Communication Training",
+    category: "What Are Evidence Based Practices?",
+    time: "15 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p>​Functional communication training (FCT) is a differential reinforcement (DR) procedure in which an individual is taught an alternative response that results in the same class of reinforcement identified as maintaining problem behavior.</p>
+    <p> ​FCT interventions progress through three stages. A functional analysis is conducted to identify the environmental events that serve as reinforcers for problem behavior and the conditions that evoke problem behavior (i.e., the relevant “establishing operations” that increase the value of the reinforcer; Michael, 1982). A socially-acceptable communicative response is strengthened by reassigning the reinforcer found to maintain problem behavior to that communicative response.2 Finally, the FCT treatment is extended across settings and caregivers.</p>
+    <p>Functional communication training (FCT) emerged from the literature on functional behavioral assessment (FBA) as a systematic practice to replace inappropriate behavior or subtle communicative acts with more appropriate and effective communicative behaviors or skills. FCT is always implemented after an FBA has been conducted to identify the function of an interfering behavior. When using FCT, teachers/practitioners analyze the interfering behavior to determine what the learner is trying to communicate. For example, is the learner biting peers when she wants a toy that another child has? Or is the learner yelling out in class so that he will be sent out of the room? After teachers/practitioners have identified the function of the interfering behavior, they then implement FCT to identify and teach a replacement behavior that is easy for the learner to use and serves the same purpose as the interfering behavior, but in a more appropriate way. </p>`,
+    featured: true
+  },
+  {
+    id: 15,
+    title: "Task Analysis",
+    category: "What Are Evidence Based Practices?",
+    time: "10 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p> Task analysis is the process of breaking a skill into smaller, more manageable steps in order to teach the skill. Other practices, such as reinforcement, video modeling, or time delay, should be used to facilitate learning of the smaller steps. As the smaller steps are mastered, the learner becomes more and more independent in his/her ability to perform the larger skill. </p>
+    <p>​Task analysis meets the evidence-based practice criteria with five single-subject design studies, demonstrating its effectiveness for promoting appropriate behavior and communication skills for children at the preschool, elementary, and middle school levels.</p>
+    <p>​Each of the following points is important to address so that you can be sure the selected EBP is likely to address the learning needs of your student. </p>`,
+    featured: true
+  },
+  {
+    id: 16,
+    title: "Response Interruption/Redirection",
+    category: "What Are Evidence Based Practices?",
+    time: "10 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p> Response interruption/redirection (RIR) is an evidence-based practice used to decrease interfering behaviors, predominantly those that are repetitive, stereotypical, and/or self-injurious. RIR often is implemented after a functional behavior assessment (FBA) has been conducted to identify the function of the interfering behavior. </p>
+    <p>​Response interruption/redirection meets evidence-based criteria with five single-subject design studies across the preschool, elementary, and middle/high school age range. It has been shown to be effective in promoting cognitive and behavioral goals.  </p>
+    <p> Response interruption/redirection is an evidence based practice that is used to decrease behaviors that are disruptive, repetitive or self-injurious. It is often used to support behaviors that are sensory based. The strategy involves stopping a student from engaging in the behavior, often using a verbal or physical prompt, and then redirecting them to engage in an alternative appropriate activity that serves a similar function. This has been an important component of interventions addressing more serious behaviors of concern such as self-injury.</p>`,
+    featured: true
+  },
+  {
+    id: 17,
+    title: "Reinforcement",
+    category: "What Are Evidence Based Practices?",
+    time: "10 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p>Reinforcement is a fundamental practice that is almost always used with other evidence-based practices such as prompting, time delay, functional communication training, and differential reinforcement of other behaviors. As a practice,reinforcement is either positive or negative. </p>
+    <p>​Reinforcement describes a relationship between learner behavior and a consequence that follows the behavior. This relationship is only considered reinforcement if the consequence increases the probability that a behavior will occur in the future, or at least be maintained. For example, children learn to ask for something politely if they want to receive it in return. The ultimate goal of reinforcement is to help learners with ASD learn new skills and maintain their use over time in a variety of settings with many different individuals. As such, teachers and other practitioners must identify the appropriate reinforcers that motivate individual learners with ASD. </p>
+    <p> This evidence based practice overview on Reinforcement (R+) includes the following components:</p>`,
+    featured: true
+  },
+  {
+    id: 18,
+    title: "Prompting",
+    category: "What Are Evidence Based Practices?",
+    time: "10 min read",
+    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    content: `<p> Prompts are generally given by an adult before or as a toddler attempts to use a skill. With prompting procedures, parents, family members, early interventionists, child care providers, or other team member can use different types of prompts systematically to help toddlers with Autism Spectrum Disorder (ASD) acquire target skills.</p>
+    <p>​The Prompting learning module describes how to develop, implement, and monitor the use of two prompting procedures: least-to-most and graduated guidance. </p>
+    <p>In the instructional session, the task direction or cue, (signal to use target skill) and controlling prompt (prompt that ensures learner will do the target skill successfully) are delivered simultaneously. In the probe sessions, the cue or task direction is delivered without the prompts to monitor progress.</p>`,
+    featured: true
+  },
 ];
 
 export const categories = [
