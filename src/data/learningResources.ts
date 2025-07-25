@@ -146,174 +146,103 @@ export const allResources: Resource[] = [
 
     featured: true
   },
+
   {
-    id: 11,
+    id: 4,
     title: "Picture Exchange Communication System (PECS)",
     category: "Educational Resources",
-    time: "10 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p>The Picture Exchange Communication System (PECS) was developed at the Delaware Autistic Program (DAP) and was designed to teach young children to communicate in a social context (Bondy & Frost, 1994; Frost & Bondy, 2002). Using PECS, learners are taught to give a picture of a desired item to a communicative partner in exchange for the item. There are six phases of PECS instruction, with each phase building on the last. The phases are: (1) Teaching the physically assisted exchange, (2) Expanding spontaneity, (3) Simultaneous discrimination of pictures, (4) Building sentence structure, (5) Responding to, “What do you want?” and (6) Commenting in response to a question. </p>
-    <p> Five studies were found to meet the evidence-based practice criteria and serve as the evidence base for PECS. Two of the studies were randomized, controlled group designs, and three were single subject studies demonstrating control through a variety of research designs including multiple baseline, alternating treatments, changing criterion, and withdrawal. ​ </p>
-    <p> This evidence-based practice overview on Picture Exchange Communication System (PECS) includes the following components: ​</p>
-    <p> What is the Picture Exchange Communication System or PECS? 
-    Description of the PECS program as defined by Lori Frost and Andrew Bondy
-    The Picture Exchange Communication System or PECS approach is a modified applied behavior analysis program designed for early nonverbal symbolic communication training. It is not a program designed to teach speech, although the latter is encouraged indirectly and some children begin to spontaneously use speech while enrolled in the PECS program. ​</p>`,
+    time: "7 min read",
+    image: "/uploads/pecs2.png",
+    content: `
+      <div class="flex flex-col md:flex-row gap-6 items-start">
+        <img src="/uploads/pecs1.png" class="rounded-lg shadow-md w-full md:w-[300px]" />
+        <div>
+          <p><em>The Picture Exchange Communication System (PECS)</em> was developed at the Delaware Autistic Program (DAP) and was designed to teach young children to communicate in a social context (Bondy & Frost, 1994; Frost & Bondy, 2002). Using PECS, learners are taught to give a picture of a desired item to a communicative partner in exchange for the item. There are six phases of PECS instruction, with each phase building on the last.</p>
+          <p><strong>The phases are:</strong> (1) Teaching the physically assisted exchange, (2) Expanding spontaneity, (3) Simultaneous discrimination of pictures, (4) Building sentence structure, (5) Responding to “What do you want?”, and (6) Commenting in response to a question.</p>
+        </div>
+      </div>
+  
+      <hr class="my-6" />
+      
+      <p><em>Five studies were found to meet the evidence-based practice criteria and serve as the evidence base for PECS. Two of the studies were randomized, controlled group designs, and three were single subject studies demonstrating control through a variety of research designs including multiple baseline, alternating treatments, changing criterion, and withdrawal.</em></p>
+      <a href="https://nationalautismresources.com/the-picture-exchange-communication-system-pecs/" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 bg-[#4393e3] text-white rounded-md  hover:bg-[#3786d2]">Learn More</a>
+  
+      <hr class="my-6" />
+  
+      <p><em>This evidence-based practice overview on Picture Exchange Communication System (PECS) includes the following components:</em></p>
+      <a href="https://pecsusa.com/pecs/" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 bg-[#4393e3] text-white rounded-md  hover:bg-[#3786d2]">Learn More</a>
+  
+      <hr class="my-6" />
+  
+      <h3 class="text-lg font-semibold">What is the Picture Exchange Communication System or PECS?</h3>
+      <p class="italic text-gray-700 mt-1">Description of the PECS program as defined by Lori Frost and Andrew Bondy</p>
+      <p class="mt-2"><em>The Picture Exchange Communication System or PECS approach is a modified applied behavior analysis program designed for early nonverbal symbolic communication training. It is not a program designed to teach speech, although the latter is encouraged indirectly and some children begin to spontaneously use speech while enrolled in the PECS program.</em></p>
+      <a href="https://www.yellowbusaba.com/post/picture-exchange-communication-system" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 bg-[#4393e3] text-white rounded-md  hover:bg-[#3786d2]">Learn More</a>
+    `,
     featured: true
   },
+
   {
-    id: 12,
-    title: "Naturalistic Intervention",
-    category: "What Are Evidence Based Practices?",
-    time: "10 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p>​Naturalistic intervention is a collection of practices including environmental arrangement, interaction techniques, and strategies based on applied behavior analysis principles. These. practices are designed to encourage specific target behaviors based on learners' interests by. ​</p>
-    <p>​Naturalistic intervention meets the evidence-base criteria with eight single-subject and two randomized group design studies, demonstrating its effectiveness for promoting communication and social skills for learners at the preschool, elementary school, and middle/high school levels.</p>
-    <p>​Naturalistic Intervention involves a sequence of strategies designed to identify the contexts for intervention, provide training to the early intervention team members including providers and parents, arrange the environment to elicit the target behavior, and then elicit the target behavior to engage the toddler with Austim Spectrum Disorder (ASD) in communication and social interactions. This learning module describes a process for engaging toddlers with ASD in social and communication interactions.</p>`,
+    id: 5,
+    title: "Naturalistic Intervention Strategies",
+    category: "Educational Resources",
+    time: "6 min read",
+    image: "/uploads/natural1.png",
+    content: `
+        <div class="flex flex-col md:flex-row gap-6 items-start">
+    <div class="w-full md:w-2/3">
+      <img src="/uploads/natural2.png" alt="Naturalistic Intervention table example" class="w-full rounded-lg shadow-md" />
+      <p class="text-sm text-gray-500 italic mt-2">Source: ASD Toddler Initiative</p>
+    </div>
+    <div class="md:w-1/3">
+      <p><em>Naturalistic intervention</em> is a collection of practices including environmental arrangement, interaction techniques, and strategies based on applied behavior analysis principles. These practices are designed to encourage specific target behaviors based on learners’ interests.</p>
+    </div>
+  </div>
+
+  <hr class="my-6" />
+
+  <p><em>Naturalistic intervention meets the evidence-base criteria with eight single-subject and two randomized group design studies, demonstrating its effectiveness for promoting communication and social skills for learners at the preschool, elementary school, and middle/high school levels.</em></p>
+  <a href="https://asdtoddler.fpg.unc.edu/book/export/html/252.html" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 bg-[#4393e3] text-white rounded-md hover:bg-[#3786d2]">Learn More</a>
+
+  <hr class="my-6" />
+
+  <p><em>Naturalistic Intervention involves a sequence of strategies designed to identify the contexts for intervention, provide training to the early intervention team members including providers and parents, arrange the environment to elicit the target behavior, and then elicit the target behavior to engage the toddler with Autism Spectrum Disorder (ASD) in communication and social interactions. This learning module describes a process for engaging toddlers with ASD in social and communication interactions.</em></p>
+    `,
     featured: true
   },
+
   {
-    id: 13,
-    title: "Modeling",
-    category: "What Are Evidence Based Practices?",
-    time: "15 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p>Modeling is an instructional strategy in which the teacher demonstrates a new concept or approach to learning and students learn by observing. Haston (2007) Whenever a teacher demonstrates a concept for a student, that teacher is modeling.</p>
-    <p>A quick summary of salient features of the practice, including what it is, who it can be used with, what skills it has been used with, and settings for instruction.</p>
-    <p>​Functional communication training (FCT) emerged from the literature on functional behavioral assessment (FBA) as a systematic practice to replace inappropriate behavior or subtle communicative acts with more appropriate and effective communicative behaviors or skills. FCT is always implemented after an FBA has been conducted to identify the function of an interfering behavior. When using FCT, teachers/practitioners analyze the interfering behavior to determine what the learner is trying to communicate. For example, is the learner biting peers when she wants a toy that another child has? Or is the learner yelling out in class so that he will be sent out of the room? After teachers/practitioners have identified the function of the interfering behavior, they then implement FCT to identify and teach a replacement behavior that is easy for the learner to use and serves the same purpose as the interfering behavior, but in a more appropriate way. </p>`,
+    id: 6,
+    title: "Modeling and Functional Communication Training",
+    category: "Educational Resources",
+    time: "7 min read",
+    image: "/uploads/modeling-fct.png", 
+    content: `
+      <div class="flex flex-col md:flex-row gap-6 items-start">
+        <img src="/uploads/modeling-fct.png" alt="Child pushing toy lawn mower" class="w-full md:w-1/2 rounded-lg shadow-md" />
+        <div class="md:w-1/2">
+          <p><em><strong>Modeling</strong> is an instructional strategy in which the teacher demonstrates a new concept or approach to learning and students learn by observing.</em> <br />Haston (2007) states: "Whenever a teacher demonstrates a concept for a student, that teacher is modeling."</p>
+        </div>
+      </div>
+  
+      <hr class="my-6" />
+  
+      <p><em>A quick summary of salient features of the practice, including what it is, who it can be used with, what skills it has been used with, and settings for instruction.</em></p>
+      <a href="https://www.advancedautism.com/post/how-to-use-video-modeling-in-autism-therapy" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 text-white rounded-md bg-[#4393e3] hover:bg-[#3786d2]">Learn More</a>
+  
+      <hr class="my-6" />
+  
+      <p><em><strong>Functional communication training (FCT)</strong> emerged from the literature on functional behavioral assessment (FBA) as a systematic practice to replace inappropriate behavior or subtle communicative acts with more appropriate and effective communicative behaviors or skills.</em></p>
+      <p><em>FCT is always implemented after an FBA has been conducted to identify the function of an interfering behavior. When using FCT, teachers/practitioners analyze the interfering behavior to determine what the learner is trying to communicate. For example, is the learner biting peers when she wants a toy that another child has? Or is the learner yelling out in class so that he will be sent out of the room?</em></p>
+      <p><em>After teachers/practitioners have identified the function of the interfering behavior, they then implement FCT to identify and teach a replacement behavior that is easy for the learner to use and serves the same purpose as the interfering behavior, but in a more appropriate way.</em></p>
+      <a href="https://raisingchildren.net.au/autism/therapies-guide/fct" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 text-white rounded-md bg-[#4393e3] hover:bg-[#3786d2]">Learn More</a>
+    `,
     featured: true
-  },
-  {
-    id: 14,
-    title: "Functional Communication Training",
-    category: "What Are Evidence Based Practices?",
-    time: "15 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p>​Functional communication training (FCT) is a differential reinforcement (DR) procedure in which an individual is taught an alternative response that results in the same class of reinforcement identified as maintaining problem behavior.</p>
-    <p> ​FCT interventions progress through three stages. A functional analysis is conducted to identify the environmental events that serve as reinforcers for problem behavior and the conditions that evoke problem behavior (i.e., the relevant “establishing operations” that increase the value of the reinforcer; Michael, 1982). A socially-acceptable communicative response is strengthened by reassigning the reinforcer found to maintain problem behavior to that communicative response.2 Finally, the FCT treatment is extended across settings and caregivers.</p>
-    <p>Functional communication training (FCT) emerged from the literature on functional behavioral assessment (FBA) as a systematic practice to replace inappropriate behavior or subtle communicative acts with more appropriate and effective communicative behaviors or skills. FCT is always implemented after an FBA has been conducted to identify the function of an interfering behavior. When using FCT, teachers/practitioners analyze the interfering behavior to determine what the learner is trying to communicate. For example, is the learner biting peers when she wants a toy that another child has? Or is the learner yelling out in class so that he will be sent out of the room? After teachers/practitioners have identified the function of the interfering behavior, they then implement FCT to identify and teach a replacement behavior that is easy for the learner to use and serves the same purpose as the interfering behavior, but in a more appropriate way. </p>`,
-    featured: true
-  },
-  {
-    id: 15,
-    title: "Task Analysis",
-    category: "What Are Evidence Based Practices?",
-    time: "10 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p> Task analysis is the process of breaking a skill into smaller, more manageable steps in order to teach the skill. Other practices, such as reinforcement, video modeling, or time delay, should be used to facilitate learning of the smaller steps. As the smaller steps are mastered, the learner becomes more and more independent in his/her ability to perform the larger skill. </p>
-    <p>​Task analysis meets the evidence-based practice criteria with five single-subject design studies, demonstrating its effectiveness for promoting appropriate behavior and communication skills for children at the preschool, elementary, and middle school levels.</p>
-    <p>​Each of the following points is important to address so that you can be sure the selected EBP is likely to address the learning needs of your student. </p>`,
-    featured: true
-  },
-  {
-    id: 16,
-    title: "Response Interruption/Redirection",
-    category: "What Are Evidence Based Practices?",
-    time: "10 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p> Response interruption/redirection (RIR) is an evidence-based practice used to decrease interfering behaviors, predominantly those that are repetitive, stereotypical, and/or self-injurious. RIR often is implemented after a functional behavior assessment (FBA) has been conducted to identify the function of the interfering behavior. </p>
-    <p>​Response interruption/redirection meets evidence-based criteria with five single-subject design studies across the preschool, elementary, and middle/high school age range. It has been shown to be effective in promoting cognitive and behavioral goals.  </p>
-    <p> Response interruption/redirection is an evidence based practice that is used to decrease behaviors that are disruptive, repetitive or self-injurious. It is often used to support behaviors that are sensory based. The strategy involves stopping a student from engaging in the behavior, often using a verbal or physical prompt, and then redirecting them to engage in an alternative appropriate activity that serves a similar function. This has been an important component of interventions addressing more serious behaviors of concern such as self-injury.</p>`,
-    featured: true
-  },
-  {
-    id: 17,
-    title: "Reinforcement",
-    category: "What Are Evidence Based Practices?",
-    time: "10 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p>Reinforcement is a fundamental practice that is almost always used with other evidence-based practices such as prompting, time delay, functional communication training, and differential reinforcement of other behaviors. As a practice,reinforcement is either positive or negative. </p>
-    <p>​Reinforcement describes a relationship between learner behavior and a consequence that follows the behavior. This relationship is only considered reinforcement if the consequence increases the probability that a behavior will occur in the future, or at least be maintained. For example, children learn to ask for something politely if they want to receive it in return. The ultimate goal of reinforcement is to help learners with ASD learn new skills and maintain their use over time in a variety of settings with many different individuals. As such, teachers and other practitioners must identify the appropriate reinforcers that motivate individual learners with ASD. </p>
-    <p> This evidence based practice overview on Reinforcement (R+) includes the following components:</p>`,
-    featured: true
-  },
-{
-    id: 18,
-    title: "Visual Support",
-    category: "What Are Evidence Based Practices?",
-    time: "10 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p>Visual supports can be photographs, drawings, objects, written words, or lists. Research has shown that visual supports work well as a way to communicate.Visual supports are used with children who have autism spectrum disorders (ASD) for two main purposes.</p>
-    <p>Each of the following points is important to address so that you can be sure the selected EBP is likely to address the learning needs of your student.</p>
-    <p>​Visual supports are used with children who have autism spectrum disorders (ASD) for two main purposes. They help parents communicate better with their child, and they help their child communicate better with others.</p>`,
-    featured: true
-  },
-  {
-    id: 19,
-    title: "Structured Play Group",
-    category: "What Are Evidence Based Practices?",
-    time: "15 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p>​Structured play groups (SPG) involve small-group activities characterized by their occurrences in a defined area and with a defined activity; the specific selection of typically developing peers to be in the group; and a clear delineation of theme and roles by adult leading, prompting, or scaffolding as needed to support students’ performance related to the goals of the activity.</p>
-    <p>​Below are CEC Standards that apply specifically to Structured Play Groups (SPG) module.</p>
-    <p>Structured play groups (SPG) are interventions using small groups to teach a broad range
-of outcomes. SPG activities are characterized by their occurrences in a defined area and with a defined activity; specific selection of typically developing peers to be in the group; and clear delineation of theme and roles by adult leading, prompting, or scaffolding as needed to support the learners’ performance related to the goals of the activity.</p>`,
-    featured: true
-  },
-  {
-    id: 20,
-    title: "Social Narratives",
-    category: "What Are Evidence Based Practices?",
-    time: "15 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p>Social narratives is an evidence-based practice that is easy to design and implement and which have been shown to be effective for teaching students with ASD social skills and stories to provide social cues and correct your students' responses to situations in a nonthreatening manner.</p>
-    <p>Research has shown that cartoon techniques, such as thought and speech bubbles, enable the individual with autism to get a sense of social interactions and understand the hidden rules that govern behaviors (Kerr & Durkin, 2004).  One cartooning strategy is known as Comic Strip Conversations developed by Carol Gray (1994). By illustrating conversation through simple drawings, the strategy helps the student to identify “what other people say and do” and emphasizes “what other people may be thinking.” Drawing a short conversation with symbols to represent persons and speech while talking, assists the student in learning how general conversations occur. </p>
-    <p>This evidence-based practice overview on Social Narratives (SN) includes the following components...</p>`,
-    featured: true
-  },
-  {
-    id: 21,
-    title: "Self Management",
-    category: "What Are Evidence Based Practices?",
-    time: "5 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p>​Self-management is a strategy to increase independence and teach new skills and behaviors through monitoring, recording, and rewarding one's own behavior.</p>
-    <p>Self-management helps children and adults with self-regulation, and through self-management, people learn rules and norms for acting appropriately in different situations. Included in self-management strategies are self-monitoring and self-reflection. </p>
-    <p>​Below are CEC Standards that apply specifically to Self-management (SM) module.</p>`,
-    featured: true
-  },
-  {
-    id: 22,
-    title: "Scripting",
-    category: "What Are Evidence Based Practices?",
-    time: "10 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p>A Brief About Scripting:
-    Scripting (SC) involves presenting learners with a verbal and/or written description about a specific skill or situation that serves as a model for the learner. The main rationale of SC is to help learners anticipate what may occur during a given activity and improve their ability to appropriately participate in the activity. SC are practiced repeatedly before the skill is used in the actual situation. When learners are able to use the scripts successfully in actual situations, the script should be systematically faded. SC is often used in conjunction with modeling, prompting, and reinforcement.​</p>`,
-    featured: true
-  },
-  {
-    id: 23,
-    title: "Social Skills Training",
-    category: "What Are Evidence Based Practices?",
-    time: "10 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p> Social skills training is aimed at addressing the challenges that result, and often plays a central role in treatment plans.​</p>
-    <p>Every child on the autism spectrum is unique, with different strengths and needs at different ages. It is the family's challenge to cobble together an individualized treatment plan based on a wide variety of options, from speech and language therapy to applied behavior analysis, from medication to special diets. One intervention many families consider is social skills training. A lack of intuitive social ability is a hallmark of autism.​</p>
-    <p> Each of the following points is important to address so that you can be sure the selected EBP is likely to address the learning needs of your student. </p>`,
-    featured: true
-  },
-  {
-    id: 24,
-    title: "Video Modeling",
-    category: "What Are Evidence Based Practices?",
-    time: "10 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p> Video modeling is an evidence-based prompting strategy that can be used to increase positive behaviors and aid in skill acquisition in individuals with autism. It is a teaching method where an individual watches a video of someone completing an activity and imitates the activity themselves.</p>
-    <p> The identification of efficient teaching procedures to address imaginative play skills deficits commonly seen in children with autism is a challenge for those designing treatment programs. In the present study video modeling was used to teach play skills to a preschool child with autism. Videotaped play sequences included both verbal and motor responses.</p>
-    <p> ​Each of the following points is important to address so that you can be sure the selected EBP is likely to address the learning needs of your student.  </p>`,
-    featured: true
-  },
-  {
-    id: 25,
-    title: "Time Delay",
-    category: "What Are Evidence Based Practices?",
-    time: "10 min read",
-    image: "https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    content: `<p>Video modeling is an evidence-based prompting strategy that can be used to increase positive behaviors and aid in skill acquisition in individuals with autism. It is a teaching method where an individual watches a video of someone completing an activity and imitates the activity themselves. </p>
-    <p> ​This practice is always used in conjunction with prompting procedures such as least-to-most prompting, simultaneous prompting, and graduated guidance. With this procedure, a brief delay is provided between the initial instruction and any additional instructions or prompts. The evidence-based research focuses on two types of time delay procedures: progressive and constant.</p>
-    <p>​Each of the following points is important to address so that you can be sure the selected EBP is likely to address the learning needs of your student. </p>`,
-    featured: true
-  },
+  }
+  
+  
+  
+  
 ];
 
 export const categories = [
