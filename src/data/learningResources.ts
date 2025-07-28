@@ -215,30 +215,179 @@ export const allResources: Resource[] = [
     id: 6,
     title: "Modeling and Functional Communication Training",
     category: "Educational Resources",
-    time: "7 min read",
-    image: "/uploads/modeling-fct.png", 
+    time: "10 min read",
+    image: "/uploads/fct1.png",
     content: `
       <div class="flex flex-col md:flex-row gap-6 items-start">
-        <img src="/uploads/modeling-fct.png" alt="Child pushing toy lawn mower" class="w-full md:w-1/2 rounded-lg shadow-md" />
+        <img src="/uploads/fct2.png" alt="Child pushing toy lawn mower" class="w-full md:w-1/2 rounded-lg shadow-md" />
         <div class="md:w-1/2">
-          <p><em><strong>Modeling</strong> is an instructional strategy in which the teacher demonstrates a new concept or approach to learning and students learn by observing.</em> <br />Haston (2007) states: "Whenever a teacher demonstrates a concept for a student, that teacher is modeling."</p>
+          <p><strong>Modeling</strong> is an instructional strategy in which the teacher demonstrates a new concept or approach to learning and students learn by observing.</p>
+          <p class="italic mt-2">Haston (2007): "Whenever a teacher demonstrates a concept for a student, that teacher is modeling."</p>
         </div>
       </div>
   
       <hr class="my-6" />
   
-      <p><em>A quick summary of salient features of the practice, including what it is, who it can be used with, what skills it has been used with, and settings for instruction.</em></p>
+      <p>A quick summary of salient features of the practice, including what it is, who it can be used with, what skills it has been used with, and settings for instruction.</p>
       <a href="https://www.advancedautism.com/post/how-to-use-video-modeling-in-autism-therapy" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 text-white rounded-md bg-[#4393e3] hover:bg-[#3786d2]">Learn More</a>
   
       <hr class="my-6" />
   
-      <p><em><strong>Functional communication training (FCT)</strong> emerged from the literature on functional behavioral assessment (FBA) as a systematic practice to replace inappropriate behavior or subtle communicative acts with more appropriate and effective communicative behaviors or skills.</em></p>
-      <p><em>FCT is always implemented after an FBA has been conducted to identify the function of an interfering behavior. When using FCT, teachers/practitioners analyze the interfering behavior to determine what the learner is trying to communicate. For example, is the learner biting peers when she wants a toy that another child has? Or is the learner yelling out in class so that he will be sent out of the room?</em></p>
-      <p><em>After teachers/practitioners have identified the function of the interfering behavior, they then implement FCT to identify and teach a replacement behavior that is easy for the learner to use and serves the same purpose as the interfering behavior, but in a more appropriate way.</em></p>
+      <p><strong>Functional communication training (FCT)</strong> emerged from the literature on functional behavioral assessment (FBA) as a systematic practice to replace inappropriate behavior or subtle communicative acts with more appropriate and effective communicative behaviors or skills.</p>
+  
+      <p>FCT is always implemented after an FBA has been conducted to identify the function of an interfering behavior. When using FCT, teachers/practitioners analyze the interfering behavior to determine what the learner is trying to communicate. For example, is the learner biting peers when she wants a toy that another child has? Or is the learner yelling out in class so that he will be sent out of the room?</p>
+  
+      <p>After identifying the function of the interfering behavior, FCT is used to teach a replacement behavior that is easy for the learner to use and serves the same purpose as the interfering behavior, but in a more appropriate way.</p>
+  
       <a href="https://raisingchildren.net.au/autism/therapies-guide/fct" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 text-white rounded-md bg-[#4393e3] hover:bg-[#3786d2]">Learn More</a>
+  
+      <hr class="my-6" />
+  
+      <div class="flex flex-col md:flex-row gap-6 items-start">
+       
+        <div class="md:w-1/2">
+          <p><strong>Functional communication training (FCT)</strong> is a differential reinforcement (DR) procedure in which an individual is taught an alternative response that results in the same class of reinforcement identified as maintaining problem behavior.</p>
+        </div>
+      </div>
+  
+      <hr class="my-6" />
+  
+      <p>FCT interventions progress through three stages. A functional analysis is conducted to identify the environmental events that serve as reinforcers for problem behavior and the conditions that evoke problem behavior (e.g., establishing operations that increase the value of the reinforcer; Michael, 1982).</p>
+  
+      <p>A socially acceptable communicative response is then strengthened by reassigning the reinforcer that used to maintain the problem behavior to that new response. Finally, the FCT treatment is extended across settings and caregivers.</p>
+  
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2846575/" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 text-white rounded-md bg-[#4393e3] hover:bg-[#3786d2]">Learn More</a>
     `,
     featured: true
   }
+  ,
+  {
+    id: 7,
+    title: "Task Analysis",
+    category: "Educational Resources",
+    time: "6 min read",
+    image: "/uploads/task1.png", 
+    content: `
+      <div class="flex flex-col md:flex-row gap-6 items-start">
+        <img src="/uploads/task2.png" alt="Task analysis picture schedule" class="w-full md:w-1/2 rounded-lg shadow-md" />
+        <div class="md:w-1/2">
+          <p><strong>Task analysis</strong> is the process of breaking a skill into smaller, more manageable steps in order to teach the skill. Other practices, such as reinforcement, video modeling, or time delay, should be used to facilitate learning of the smaller steps.</p>
+          <p class="mt-2">As the smaller steps are mastered, the learner becomes more and more independent in their ability to perform the larger skill. (Image from Child Mind Institute)</p>
+        </div>
+      </div>
+  
+      <hr class="my-6" />
+  
+      <p>Task analysis meets the evidence-based practice criteria with five single-subject design studies, demonstrating its effectiveness for promoting appropriate behavior and communication skills for children at the preschool, elementary, and middle school levels.</p>
+  
+      <a href="https://autisminternetmodules.org/storage/ocali-ims-sites/ocali-ims-aim/documents/TaskAnalysisOverview.pdf" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 text-white rounded-md bg-[#4393e3] hover:bg-[#3786d2]">Learn More</a>
+  
+      <hr class="my-6" />
+  
+      <p><em>Each of the following points is important to address so that you can be sure the selected EBP is likely to address the learning needs of your student.</em></p>
+  
+      <a href="https://afirm-modules.fpg.unc.edu/Task-Analysis/content/#/" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 text-white rounded-md bg-[#4393e3] hover:bg-[#3786d2]">Learn More</a>
+    `,
+    featured: true
+  },
+
+  {
+    id: 8,
+    title: "Response Interruption and Redirection (RIR)",
+    category: "Educational Resources",
+    time: "6 min read",
+    image: "/uploads/rir1.png", 
+    content: `
+      <div class="flex flex-col md:flex-row gap-6 items-start">
+        <img 
+  src="/uploads/rir2.png" 
+  alt="RIR behavior flowchart" 
+  class="w-full md:w-[75%] mx-auto rounded-lg shadow-md"
+/>
+
+        <div class="md:w-1/2">
+          <p><strong>Response interruption/redirection (RIR)</strong> is an evidence-based practice used to decrease interfering behaviors, predominantly those that are repetitive, stereotypical, and/or self-injurious.</p>
+          <p class="mt-2">RIR is often implemented after a functional behavior assessment (FBA) has been conducted to identify the function of the interfering behavior. (Image from the California Autism Professional Training and Information Network)</p>
+        </div>
+      </div>
+  
+      <hr class="my-6" />
+  
+      <p><em>Response interruption/redirection meets evidence-based criteria with five single-subject design studies across the preschool, elementary, and middle/high school age range. It has been shown to be effective in promoting cognitive and behavioral goals.</em></p>
+  
+      <a href="https://docs.autismspeaks.org/evidence-based-practices/rird" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 text-white rounded-md bg-[#4393e3] hover:bg-[#3786d2]">Learn More</a>
+  
+      <hr class="my-6" />
+  
+      <p><em>Response interruption/redirection is an evidence-based practice that is used to decrease behaviors that are disruptive, repetitive, or self-injurious. It is often used to support behaviors that are sensory-based.</em></p>
+      <p><em>The strategy involves stopping a student from engaging in the behavior, often using a verbal or physical prompt, and then redirecting them to engage in an alternative appropriate activity that serves a similar function.</em></p>
+      <p><em>This has been an important component of interventions addressing more serious behaviors of concern such as self-injury.</em></p>
+    `,
+    featured: true
+  },
+
+  {
+    id: 9,
+    title: "Reinforcement",
+    category: "Educational Resources",
+    time: "6 min read",
+    image: "/uploads/rein1.png",
+    content: `
+      <div class="flex flex-col md:flex-row gap-6 items-start">
+        <img src="/uploads/rein2.png" alt="Types of Reinforcement: Positive and Negative" class="w-full md:w-[75%] mx-auto rounded-lg shadow-md" />
+        <div class="md:w-1/2">
+          <p><strong>Reinforcement</strong> is a fundamental practice that is almost always used with other evidence-based practices such as prompting, time delay, functional communication training, and differential reinforcement of other behaviors. As a practice, reinforcement is either positive or negative. (Image from Simply Psychology)</p>
+        </div>
+      </div>
+  
+      <hr class="my-6" />
+  
+      <p>Reinforcement describes a relationship between learner behavior and a consequence that follows the behavior. This relationship is only considered reinforcement if the consequence increases the probability that a behavior will occur in the future, or at least be maintained. For example, children learn to ask for something politely if they want to receive it in return.</p>
+      <p>The ultimate goal of reinforcement is to help learners with ASD learn new skills and maintain their use over time in a variety of settings with many different individuals. As such, teachers and other practitioners must identify the appropriate reinforcers that motivate individual learners with ASD.</p>
+  
+      <a href="https://goldencaretherapy.com/positive-reinforcement-autism/" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 text-white rounded-md bg-[#4393e3] hover:bg-[#3786d2]">Learn More</a>
+  
+      <hr class="my-6" />
+  
+      <p>This evidence-based practice overview on Reinforcement (R+) includes the following components:</p>
+  
+      <a href="https://afirm-modules.fpg.unc.edu/Reinforcement/content/#/lessons/2VN2s_vsi2NDD2eW5qM16RxaeISKqxN4" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 text-white rounded-md bg-[#4393e3] hover:bg-[#3786d2]">Learn More</a>
+    `,
+    featured: true
+  },
+
+  {
+    id: 10,
+    title: "Prompting Techniques to Support Skill Acquisition in Children with Autism",
+    category: "Educational Resources",
+    time: "5 min read",
+    image: "/uploads/prompt1.png",
+    content: `
+      <div class="flex flex-col md:flex-row gap-6 items-start">
+        <img src="/uploads/prompt2.png" alt="Prompting types and steps" class="w-full md:w-[70%] mx-auto rounded-lg shadow-md" />
+        <div class="md:w-1/2">
+          <p><strong>Prompts</strong> are generally given by an adult before or as a toddler attempts to use a skill. With prompting procedures, parents, family members, early interventionists, child care providers, or other team members can use different types of prompts systematically to help toddlers with Autism Spectrum Disorder (ASD) acquire target skills. (Image from Kathy Oehler –Autism Consultant and Mary Roth – Lead Ally, Autism Society of Indiana) </p>
+        </div>
+      </div>
+  
+      <hr class="my-6" />
+  
+      <p><em>The Prompting learning module</em> describes how to develop, implement, and monitor the use of two prompting procedures: least-to-most and graduated guidance.</p>
+  
+      <a href="https://afirm-modules.fpg.unc.edu/Prompting/content/#/lessons/-SpvFlYVfA6ZgATxDciNQi-9JknTkfoi" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 text-white rounded-md bg-[#4393e3] hover:bg-[#3786d2]">Learn More</a>
+  
+      <hr class="my-6" />
+  
+      <p><em>In the instructional session</em>, the task direction or cue (signal to use target skill) and controlling prompt (prompt that ensures learner will do the target skill successfully) are delivered simultaneously. In the probe sessions, the cue or task direction is delivered without the prompts to monitor progress.</p>
+  
+      <a href="https://afirm-modules.fpg.unc.edu/Prompting/content/#/lessons/oI-yP8Lir9-4bITEu2-0c0bRrSviwVgx" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 px-4 py-2 text-white rounded-md bg-[#4393e3] hover:bg-[#3786d2]">Diagram</a>
+    `,
+    featured: true
+  }
+  
+  
+  
+  
   
   
   
